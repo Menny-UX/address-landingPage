@@ -1,0 +1,7 @@
+<mat-toolbar>
+    <mat-selection-list #navlink [multiple]="false">
+            <mat-list-option *ngFor="let link of navLinks" disableRipple=true [ngClass]="{}">
+                    <a matLine (click)="scrollToElement(link.path)">{{ link.label | uppercase }}</a>
+            </mat-list-option>
+     </mat-selection-list>
+</mat-toolbar>

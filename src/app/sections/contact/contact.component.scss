@@ -1,0 +1,54 @@
+.contact-container{
+    position: relative;
+    display: flex;
+    width:100vw;
+    background-color: black;
+}
+.contact-description,
+.customer-description{
+    flex: 1;
+    margin: 2rem 5rem 0rem 5rem;
+}
+.customer-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    .mat-display-3{
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    .mat-headline{
+        text-transform: capitalize;
+    }
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-map{
+    margin: 2rem;
+    img{
+        width: 35rem;
+    }
+}
+.contact-info {
+    margin: 2rem;
+
+    .mat-subheading-1{
+        margin: 0;
+    }
+}
+.customer-form{
+    margin-top: 2rem;
+}
+#form-action{
+    margin-top: 4rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: flex;
+    color: #9e7b34;
+    div{
+        margin-right: 15px;
+        cursor: pointer;
+    }
+}

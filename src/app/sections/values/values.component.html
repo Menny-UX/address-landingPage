@@ -1,0 +1,20 @@
+<div class="values-container">
+    <div  class="values-discription" >
+        <div class="value-card" *ngFor="let value of data">
+            <div class="value-image">
+                <img  [src]= value.image />
+            </div>
+            <div class="value-text">
+                <div class="mat-display-1">
+                     {{value.title}}
+                 </div>
+                <div class="mat-subheading-2">
+                     {{value.description}}
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="values-background">
+        <img src="../../../assets/logoBackground.png"/>
+    </div>
+</div>

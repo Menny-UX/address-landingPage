@@ -1,0 +1,34 @@
+<div class="brands-container">
+    <div class="mat-display-3">brands</div>
+    <mat-tab-group mat-align-tabs="end">
+        <mat-tab *ngFor=" let brand of data" class="isSelected? 'active': '' " [label]=brand.image_title >
+            <div id="brand-content" >
+                    <div class="main-image">
+                            <img [src]=brand.gallery[0].image />
+                        </div>
+                        <div id="brand-details">
+                            <div class="brand-description">
+                                <div class="brand-image">
+                                   <img [src]=brand.image />
+                                </div>
+                                <div class="mat-headline">
+                                    {{brand.sub_title}}
+                                </div>
+                                <div class="mat-subheading-2">
+                                    {{brand.description}}
+                                </div>
+                            </div>
+                            <div class="more-images">
+                               <img [src]=brand.gallery[1].image />
+                               <img [src]=brand.gallery[2].image />
+                               <img [src]=brand.gallery[3].image />
+                            </div>
+                            <div id="brand-more-action">
+                                    <div>discover more </div>
+                                    <mat-icon svgIcon="rightArrow" aria-hidden="false" aria-label="More" ></mat-icon>
+                            </div>
+                        </div>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>

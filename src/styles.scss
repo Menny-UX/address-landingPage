@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+@mixin goldenborder() {
+    padding: 10px;
+    border: 1px solid #9e7b34;
+  }
+// #scrollbar .simplebar-scrollbar .simplebar-visible {
+//     height: 5rem !important;
+//     width: 2rem !important;
+//     background-color: red !important;
+// }
+// #scrollbar .simplebar-track .simplebar-vertical {
+//   top: 8rem;
+//   left: 9rem;
+//   width: 1px;
+//   height: 60vh;
+//   background-color: #ffffff3b;
+//   visibility: visible !important;
+// }

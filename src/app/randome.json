@@ -1,0 +1,105 @@
+{
+  "data": {
+    "about": {
+      "description": "We, at the Address Developments are dedicated to sustaining unsurpassed integrated communities through giving special attention to details. We understand that in order to further thrive as an association and exceed what&rsquo;s expected from our clients, we ensure that the communities we develop flourish too. We have chosen value as the first long term commitment to our clients and investors to provide mixed use communities and be part of the economic growth of the uprising Egyptian Real Estate market.",
+      "vision": "We address to serve our clients by developing upscale, innovative andprogressive communities that hold to modern families\u2019 needs. We are also devoted to develop the quickly growing Real Estatemarket by expanding across highly demanded areas",
+      "mission": "As a privately owned and experienced real estate developer, we are dedicated to serving the real estate needs of our clients with the upmost professionalism, quality service and unfailing punctuality. We aim to build long going communities by developing preciseand clear strategies.",
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/about\/bernard-hermant-62guDhW4qzs-unsplash.png",
+      "image_title": "front image",
+      "back_image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/about\/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png",
+      "back_image_title": "back image"
+    },
+    "seo": {
+      "id": 1,
+      "page_name": "Home",
+      "title": "Home",
+      "keywords": "home,address east, values and more",
+      "description": "this a test for description field",
+      "created_at": null,
+      "updated_at": "2020-04-29T20:29:07.000000Z"
+    },
+    "info": {
+      "email": "info@addressdev.com",
+      "phone": "16669",
+      "address": "Building 15, 4th Sector, South 90 St. 5th Settlement",
+      "latitude": "12121",
+      "longitude": "2121212",
+      "facebook": "https:\/\/www.facebook.com\/mbgeg\/",
+      "twitter": "https:\/\/www.linkedin.com\/company\/the-address-developments\/",
+      "instagram": "https:\/\/www.instagram.com\/themarq.eg\/",
+      "linkedin": "https:\/\/www.linkedin.com\/company\/the-address-developments\/"
+    },
+    "values": [{
+      "title": "Inspiration",
+      "description": "We long care for developing the human factor thus inspiring later generations by providing enthusiastic work environment.",
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/values\/Group 287.svg",
+      "image_title": "first value image"
+    }, {
+      "title": "Novelty",
+      "description": "We are a group of progressive, forward-thinkers encompassing new ideas for better real estate solutions.",
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/values\/Group 284.svg",
+      "image_title": "second Image"
+    }, {
+      "title": "Integrity",
+      "description": "We are honest and transparent with consistent adherence to strong moral and ethical principles and values to maintain a healthy environment.",
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/values\/Group 290.svg",
+      "image_title": "image 3"
+    }],
+    "sliders": [{
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/slider\/asc.jpg",
+      "image_title": "image"
+    }, {
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/slider\/ascac.jpg",
+      "image_title": "image2"
+    }, {
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/slider\/Untitled-2.jpg",
+      "image_title": "image 3"
+    }],
+    "brands": [{
+      "id": 3,
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/Asset 1s@4x@2x.png",
+      "image_title": "The Marq",
+      "sub_title": "the marq - New Cairo",
+      "description": "The first serviced villas in New Cairo All 321 families will enjoy custom unit number and name, front Yard Parking, waste Collection System.",
+      "gallery": [{
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/asd-1024x640.png"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/555-1024x640.png"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/asc.jpg"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/ascc.jpg"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/asdasd-1024x640.png"
+      }]
+    }, {
+      "id": 4,
+      "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/Asset 1s@4x@2x.png",
+      "image_title": "Zayed Project",
+      "sub_title": "Zayed Project",
+      "description": "The first serviced villas in New Cairo All 321 families will enjoy custom unit number and name, front Yard Parking, waste Collection System.",
+      "gallery": [{
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/Untitlsed-1.jpg"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/Untitled-1.jpg"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/Untitleasd-1.jpg"
+      }, {
+        "image": "https:\/\/socialnuts-eg.com\/projects\/address\/public\/brands\/asc.jpg"
+      }]
+    }],
+    "vacancies": [{
+      "id": 1,
+      "title": "First Vacancy",
+      "created_at": "2020-04-21T11:43:43.000000Z",
+      "updated_at": "2020-04-21T11:45:15.000000Z"
+    }, {
+      "id": 2,
+      "title": "Second vacancy",
+      "created_at": "2020-04-21T11:44:17.000000Z",
+      "updated_at": "2020-04-21T11:45:08.000000Z"
+    }]
+  },
+  "message": "Data retrieved successfully",
+  "success": true
+}

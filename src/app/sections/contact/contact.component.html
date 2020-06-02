@@ -1,0 +1,52 @@
+<div class="contact-container">
+    <div class="customer-description">
+        <div class="customer-header">
+            <div class="mat-display-3">
+                contact us
+            </div>
+            <div class="mat-headline">
+                feel free to send us.
+            </div>
+        </div>
+        <div class="customer-form">
+                <form #userForm="ngForm" class="form-container">
+                        <mat-form-field >
+                          <mat-label>Name</mat-label>
+                          <input matInput placeholder="Your Name (required)" value="">
+                        </mat-form-field>
+                        <mat-form-field >
+                          <mat-label>Phone</mat-label>
+                          <input matInput placeholder="Your Phone (required)" value="">
+                        </mat-form-field>
+                        <mat-form-field >
+                          <mat-label>Email</mat-label>
+                          <input matInput placeholder="Your Email (required)" value="">
+                        </mat-form-field>
+                        <mat-form-field >
+                          <mat-label>Message</mat-label>
+                          <input matInput placeholder="Your Message (required)" value="">
+                        </mat-form-field>
+                </form>
+        </div>
+        <div id="form-action">
+                <div>Send </div>
+                <mat-icon svgIcon="rightArrow" aria-hidden="false" aria-label="More"></mat-icon>
+           </div>
+    </div>
+    <div class="contact-description">
+        <div class="contact-map">
+            <img src="../../../assets/map.png" />
+        </div>
+        <div class="contact-info">
+            <div class="mat-subheading-1">
+                Phone: {{data.phone}}
+            </div>
+            <div class="mat-subheading-1">
+                Email: {{data.email}}
+            </div>
+            <div class="mat-subheading-1">
+                Address: {{data.address}}
+            </div>
+        </div>
+    </div>
+</div>

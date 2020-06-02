@@ -1,0 +1,23 @@
+<div class="about-container">
+        <div class="about-text">
+                <div id="about-title" class="mat-display-2">
+                        who are we ?
+                   </div>
+                   <div id="about-discription" class="mat-subheading-1">
+                        {{data.description}}
+                   </div>
+                   <div id="about-more-action" class="mat-subheading-2">
+                        <div>read more... </div>
+                   </div>
+        </div>
+     <div class="about-image">
+          <div class="about-backgroundImage">
+               <img [src]=data.back_image >
+          </div>
+          <div class="about-foregroundImage">
+               <div class="border"></div>
+               <img [src]=data.image >
+               
+          </div>
+     </div>
+</div>
